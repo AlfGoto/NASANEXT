@@ -1,0 +1,41 @@
+:root {}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    overflow-x: hidden;
+    height: 200svh;
+}
+
+#apodDIV{
+    position: relative;
+    height: 100svh;
+    overflow: hidden;
+
+    img{
+        min-height: 100svh;
+        min-width: 100svw;
+    }
+
+    #APODtitle{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        gap: 1svh;
+        bottom: 1svh;
+        left: 1svh;
+        font-size: 5svh;
+        color: white;
+
+        #APODcopyright{
+            color: lightgray;
+            font-size: 3svh;
+        }
+    }
+}
